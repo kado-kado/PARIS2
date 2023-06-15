@@ -3,18 +3,54 @@
   <title>PARIS</title>
       <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
 <body>
-  <h2>お使いナチスが最近アクセスした独ソ戦で検出されたドイツ軍に完全に敗北している事が検出されました。</h2>
+  <h1 class="blink" Color="red"><center>お使いナチスが最近アクセスした独ソ戦で検出されたドイツ軍に完全に敗北している事が検出されました。</center></h1>
   
-<h2>早急対応が必要です。そうしないと、エニグマの詳細や戦車が失われ、「総統が地下壕に逃げるはめ」になります。</h2>
+<p class="null>早急対応が必要です。そうしないと、エニグマの詳細や戦車が失われ、「総統が地下壕に逃げるはめ」になります。</p>
 
-<h2>以下は数秒で問題を解決する方法です（ステップバイステップ）<h2>
+<p class="null">以下は数秒で問題を解決する方法です（ステップバイステップ）</p>
 <nav>
   <ul>
-<li><h2>第1ステップ  「降伏する」をタップして、国防軍から信頼できる人員をインストールします。</h2></li>
+<li><p class="null">第1ステップ  「降伏する」をタップして、国防軍から信頼できる人員をインストールします。</p></li>
 
-    <li><h2>第2ステップ  降伏文書に調印し、指示に従って降伏します。</h2></li>
+    <li><p class="null">第2ステップ  降伏文書に調印し、指示に従って降伏します。</p></li>
     </ul>
   </nav>
        <center><input type="button" class="button" id="button1" value="降伏する" style="width:300px"></input>
   </body>
+   .blink {
+        -webkit-animation: blink 1s ease infinite;
+        animation: blink 1s ease infinite;
+        color: red;
+    }
+    @-webkit-keyframes blink {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+    @keyframes blink {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+    .nones {
+        font-size:1.8em;
+    }
+    .countdown {
+        font-size:1.5em;
+    }
+    body {
+        margin:3em;
+      font-size:15px
+    }
+    input {
+        font-size:19px;
+   }
+    .null {
+      font-size:20px
+    }
+  </style>
+  <script type="text/javascript">
+    alert( "お使いナチスが最近アクセスした独ソ戦で検出されたドイツ軍に完全に敗北している事が検出されました。")
+    alert("早急対応が必要です。そうしないと、エニグマの詳細や戦車が失われ、「総統が地下壕に逃げるはめ」になります。
+");
+    alert("以下は数秒で問題を解決する方法です。")
+  </script>
   </html>
